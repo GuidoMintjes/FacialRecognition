@@ -19,11 +19,9 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 
 <h2>Repository clonen:</h2>
 <p>Om succesvol de bestanden te bemachtigen, kan je een aantal dingen doen:</p>
-<ul>
-	<li>Op github.com/GuidoMintjes/FacialRecognition (overigens waar je nu bent) kan je klikken op het groene knopje met code: </li>
 
-![Code Knop](https://i.imgur.com/WdN4pUI.png)
+* Op github.com/GuidoMintjes/FacialRecognition (overigens waar je nu bent) kan je klikken op het groene knopje met code: ![Code Knop](https://i.imgur.com/WdN4pUI.png)
 
-<li>Dan kan je het of als zip bestand downloaden, als je dit doet zorg dan dat je het volledige zip bestand uitpakt in de werkmap die je hebt aangemaakt</li>
-<li>Of je opent hem in GitHub Desktop, zorg dan dat je deze goed hebt ingesteld en dat je eerst bent ingelogd! Als je er niet uitkomt, zijn er [hier](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop) instructies te vinden</li>
-<li>En anders gebruik je de CLI, ook te vinden in het code menu, instructies zijn [hier](https://cli.github.com/manual/gh_repo_clone) te vinden</li>
+* Dan kan je het of als zip bestand downloaden, als je dit doet zorg dan dat je het volledige zip bestand uitpakt in de werkmap die je hebt aangemaakt
+* Of je opent hem in GitHub Desktop, zorg dan dat je deze goed hebt ingesteld en dat je eerst bent ingelogd! Als je er niet uitkomt, zijn er [hier](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop) instructies te vinden
+* En anders gebruik je de CLI, ook te vinden in het code menu, instructies zijn [hier](https://cli.github.com/manual/gh_repo_clone) te vinden
