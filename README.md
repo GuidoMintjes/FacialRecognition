@@ -29,16 +29,16 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 
 <h2>Het gebruik</h2>
 <p>Als het goed is heb je nu alle bestanden in je werkmap, open je werkmap nu in de bestandenverkenner</p>
-1. <b>Belangrijke stap!</b> Maak in je werkmap nu een map aan met de naam 'KNOWN_FACES', deze map mag niet anders heten!!!<br/>
-2. Ga naar deze zojuist gemaakte map toe, en maak daarin een nieuwe map met de naam van de persoon waarvan je de foto's hebt gemaakt, bijvoorbeeld 'Jantje', het maakt niet uit hoe deze map heet, je kan dus ook meerdere mappen van meerdere personen maken!<br/>
-3. Plak in elke map die je hebt van een persoon zijn/haar foto's<br/>
-4. Ga met de bestandenverkenner nu weer een map omhoog, naar de 'FacialRecognition' map<br/>
-5. Open command prompt en navigeer naar deze werkmap, of open de command prompt door in de zoekbalk in de verkenner 'cmd' in te typen, en op enter te drukken<br/>
-6. <b>Erg belangrijk!</b> Hiermee installeer je de benodigde packages met de pip module: `pip install -r requirements.txt`<br/>
-7. Om de AI te trainen op de foto's, voer je de volgende code in in deze command prompt: `python savefaces.py`<br/>
-8. Wanneer dit klaar is, voer dan `python frec.py` in, en laat het herkennen maar beginnen!<br/>
-9. Nadat je klaar bent met herkennen, klik je met je muis op het camera-venster en klikt op de volgende toets combinatie: `left-shift+q`<br/>
-10. Er is automatisch een video bestand gemaakt genaamd `video_capture.avi`, in dit bestand wordt automatisch doorgespoeld wanneer er niet herkend wordt, deze wordt elke keer herschreven, dus als je hem op wilt slaan, geef hem dan een andere naam of sla hem ergens op<br/>
+1. <b>Belangrijke stap!</b> Maak in je werkmap nu een map aan met de naam 'KNOWN_FACES', deze map mag niet anders heten!!!<br/><br/>
+2. Ga naar deze zojuist gemaakte map toe, en maak daarin een nieuwe map met de naam van de persoon waarvan je de foto's hebt gemaakt, bijvoorbeeld 'Jantje', het maakt niet uit hoe deze map heet, je kan dus ook meerdere mappen van meerdere personen maken!<br/><br/>
+3. Plak in elke map die je hebt van een persoon zijn/haar foto's<br/><br/>
+4. Ga met de bestandenverkenner nu weer een map omhoog, naar de 'FacialRecognition' map<br/><br/>
+5. Open command prompt en navigeer naar deze werkmap, of open de command prompt door in de zoekbalk in de verkenner 'cmd' in te typen, en op enter te drukken<br/><br/>
+6. <b>Erg belangrijk!</b> Hiermee installeer je de benodigde packages met de pip module: `pip install -r requirements.txt`<br/><br/>
+7. Om de AI te trainen op de foto's, voer je de volgende code in in deze command prompt: `python savefaces.py`<br/><br/>
+8. Wanneer dit klaar is, voer dan `python frec.py` in, en laat het herkennen maar beginnen!<br/><br/>
+9. Nadat je klaar bent met herkennen, klik je met je muis op het camera-venster en klikt op de volgende toets combinatie: `left-shift+q`<br/><br/>
+10. Er is automatisch een video bestand gemaakt genaamd `video_capture.avi`, in dit bestand wordt automatisch doorgespoeld wanneer er niet herkend wordt, deze wordt elke keer herschreven, dus als je hem op wilt slaan, geef hem dan een andere naam of sla hem ergens op<br/><br/>
 
 <h2>Eind</h2>
 Ik hoop dat dit programma goed werkt!
