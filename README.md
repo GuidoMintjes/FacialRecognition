@@ -42,5 +42,5 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 
 <h2>Eind</h2>
 Ik hoop dat dit programma goed werkt!
-<br/>
+<br/><br/><br/>
 <b>Dit programma mag niet hergebruikt worden zonder schriftelijke toestemming van de oorspronkelijke auteur, de rechten voor de gebruikte packages zijn voorbehouden aan hun rechtmatige eigenaren!</b>
