@@ -1,2 +1,0 @@
-opencv-python==4.4.0.44
-face-recognition==1.3.0
