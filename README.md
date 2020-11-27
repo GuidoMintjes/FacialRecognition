@@ -10,6 +10,7 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 		<li>Een lege folder om de bestanden in kwijt te kunnen, noem hem 'FacialRec' of iets dergelijks</li>
 		<li>Een programma om git repositories mee te clonen, dit kan de CLI tool zijn: https://github.com/cli/cli/releases/tag/v1.3.0 , of de desktop applicatie: https://desktop.github.com/ </li>
 	<li>Een github-account, afhangend van de download-methode</li>
+	<li>Een laptop met camera, hierop doe je alle stappen (liefst op windows)</li>
 	</ul>
 	
 <h2>Voorbereiding vooraf:</h2>
@@ -25,3 +26,21 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 * Dan kan je het of als zip bestand downloaden, als je dit doet zorg dan dat je het volledige zip bestand uitpakt in de werkmap die je hebt aangemaakt
 * Of je opent hem in GitHub Desktop, zorg dan dat je deze goed hebt ingesteld en dat je eerst bent ingelogd! Als je er niet uitkomt, zijn er [hier](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop) instructies te vinden
 * En anders gebruik je de CLI, ook te vinden in het code menu, instructies zijn [hier](https://cli.github.com/manual/gh_repo_clone) te vinden
+
+<h2>Het gebruik</h2>
+<p>Als het goed is heb je nu alle bestanden in je werkmap, open je werkmap nu in de bestandenverkenner</p>
+1. <b>Belangrijke stap!</b> Maak in je werkmap nu een map aan met de naam 'KNOWN_FACES', deze map mag niet anders heten!!!
+2. Ga naar deze zojuist gemaakte map toe, en maak daarin een nieuwe map met de naam van de persoon waarvan je de foto's hebt gemaakt, bijvoorbeeld 'Jantje', het maakt niet uit hoe deze map heet, je kan dus ook meerdere mappen van meerdere personen maken!
+3. Plak in elke map die je hebt van een persoon zijn/haar foto's
+4. Ga met de bestandenverkenner nu weer een map omhoog, naar de 'FacialRecognition' map
+5. Open command prompt en navigeer naar deze werkmap, of open de command prompt door in de zoekbalk in de verkenner 'cmd' in te typen, en op enter te drukken
+6. <b>Erg belangrijk!</b> Hiermee installeer je de benodigde packages met de pip module: `pip install -r requirements.txt`
+7. Om de AI te trainen op de foto's, voer je de volgende code in in deze command prompt: `python savefaces.py`
+8. Wanneer dit klaar is, voer dan `python frec.py` in, en laat het herkennen maar beginnen!
+9. Nadat je klaar bent met herkennen, klik je met je muis op het camera-venster en klikt op de volgende toets combinatie: `left-shift+q`
+10. Er is automatisch een video bestand gemaakt genaamd `video_capture.avi`, in dit bestand wordt automatisch doorgespoeld wanneer er niet herkend wordt, deze wordt elke keer herschreven, dus als je hem op wilt slaan, geef hem dan een andere naam of sla hem ergens op
+
+<h2>Eind</h2>
+Ik hoop dat dit programma goed werkt!
+
+<b>Dit programma mag niet hergebruikt worden zonder schriftelijke toestemming van de oorspronkelijke auteur, de rechten voor de gebruikte packages zijn voorbehouden aan hun rechtmatige eigenaren!</b>
