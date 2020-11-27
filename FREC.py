@@ -77,7 +77,7 @@ while True:
 
     cv2.imshow('Video', frame)
 
-    # out.write(cv2.resize(frame, (int(vidWidth), int(vidHeight))))
+    out.write(cv2.resize(frame, (int(vidWidth), int(vidHeight))))
 
     if cv2.waitKey(1) & 0xFF == ord('Q'):
         print("Gestopt!")
