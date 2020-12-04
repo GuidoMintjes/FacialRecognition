@@ -12,6 +12,7 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 	<li>Een github-account, afhangend van de download-methode</li>
 	<li>Een laptop of pc met camera, hierop doe je alle stappen (liefst op windows)</li>
 	<li>CMAKE moet vooraf geinstalleerd worden en aan path worden toegevoegd: cmake.org/download met instructies te vinden op https://github.com/Kitware/CMake </li>
+	<li>Via de visual studio installer moet visual studio voor c++ worden geinstalleerd: https://visualstudio.microsoft.com/vs/features/cplusplus/ </li>
 	</ul>
 	
 <h2>Voorbereiding vooraf:</h2>
@@ -35,7 +36,7 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 3. Plak in elke map die je hebt van een persoon zijn/haar foto's<br/><br/>
 4. Ga met de bestandenverkenner nu weer een map omhoog, naar de 'FacialRecognition' map<br/><br/>
 5. Open command prompt en navigeer naar deze werkmap, of open de command prompt door in de zoekbalk in de verkenner 'cmd' in te typen, en op enter te drukken<br/><br/>
-6. <b>Erg belangrijk!</b> Hiermee installeer je de benodigde packages met de pip module: `pip install -r requirements.txt`<br/><br/>
+6. <b>Erg belangrijk!</b> Hiermee installeer je de benodigde packages met de pip module door middel van deze commando's: `pip install cmake` en dan `pip install -r requirements.txt`<br/><br/>
 7. Om de AI te trainen op de foto's, voer je de volgende code in in deze command prompt: `python savefaces.py`<br/><br/>
 8. Wanneer dit klaar is, voer dan `python frec.py` in, en laat het herkennen maar beginnen!<br/><br/>
 9. Nadat je klaar bent met herkennen, klik je met je muis op het camera-venster en klikt op de volgende toets combinatie: `left-shift+q`<br/><br/>
