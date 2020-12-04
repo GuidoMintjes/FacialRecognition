@@ -11,6 +11,7 @@ Een simpel facial recognition programma gemaakt met python en de facial_recognit
 		<li>Een programma om git repositories mee te clonen, dit kan de CLI tool zijn: https://github.com/cli/cli/releases/tag/v1.3.0 , of de desktop applicatie: https://desktop.github.com/ </li>
 	<li>Een github-account, afhangend van de download-methode</li>
 	<li>Een laptop of pc met camera, hierop doe je alle stappen (liefst op windows)</li>
+	<li>CMAKE moet vooraf geinstalleerd worden en aan path worden toegevoegd: cmake.org/download met instructies te vinden op https://github.com/Kitware/CMake </li>
 	</ul>
 	
 <h2>Voorbereiding vooraf:</h2>
